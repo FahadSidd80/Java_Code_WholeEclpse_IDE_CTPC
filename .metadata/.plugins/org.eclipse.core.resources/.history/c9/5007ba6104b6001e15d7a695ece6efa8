@@ -1,0 +1,25 @@
+package class_Level_Modifier;
+// //only public, abstract & final are permitted
+
+strictfp class Modifier {
+
+	public static void main(String[] args) {
+		System.out.println("Hello");
+
+	}
+
+}
+
+
+
+//private class Modifier {// Illegal modifier for the class Modifier; 
+//only public, abstract & final are permitted
+//
+//	public static void main(String[] args) {
+//		
+//		System.out.println("Hello");
+//	}
+//
+//}
+
+

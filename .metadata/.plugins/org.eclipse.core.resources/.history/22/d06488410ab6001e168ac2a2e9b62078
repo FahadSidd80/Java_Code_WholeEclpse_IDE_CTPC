@@ -1,0 +1,39 @@
+package pack1;
+
+public  class A extends B {
+
+//	public static  void m1() {
+//		System.out.println("hello-- public class class A accessible anywhere");
+//
+//	}
+	
+	public static void main(String[] args) {
+		A x = new A();
+		x.m1();
+
+	}
+//    
+}
+
+
+ class B  {
+
+//	public static void main(String[] args) {
+//		A x = new A();
+//		x.m1();
+//
+//	}
+	
+	public static  void m1() {
+		System.out.println("hello-- public class class A accessible anywhere");
+
+	}
+
+}
+
+ 
+ class C {
+	 public static void m2() {
+		 System.out.println("Default class method");
+	 }
+ }

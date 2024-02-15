@@ -1,0 +1,64 @@
+package pack1;
+
+  class A extends B {
+
+//	public static  void m1() {
+//		System.out.println("hello-- public class class A accessible anywhere");
+//
+//	}
+	
+	public static void main(String[] args) {
+		A x = new A();
+		x.m1();
+		
+		C c = new C();
+		c.m2();
+
+	}
+//    
+}
+
+
+ class B  {
+
+//	public static void main(String[] args) {
+//		A x = new A();
+//		x.m1();
+//
+//	}
+	
+	public static  void m1() {
+		System.out.println("hello-- public class class A accessible anywhere");
+
+	}
+
+}
+
+ 
+ class C {// default class
+	 public static void m2() {
+		 System.out.println("Default class method");
+	 }
+ }
+ 
+ 
+ class Parent{
+	 public    void finalmethod() {
+		 System.out.println("final method of class parent");
+	 }
+ }
+ 
+ class child extends Parent{
+	 
+	 public static void main(String[] args) {
+		 
+		 Parent p = new Parent();
+		 p.finalmethod();
+		 finalmethod();
+	 }
+	 
+	 public static void finalmethod() {
+		 System.out.println("Hello");
+	 }
+	
+ }

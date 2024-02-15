@@ -1,0 +1,21 @@
+package class_Level_Modifier;
+
+//public class Modifier {
+//
+//	public static void main(String[] args) {
+//		
+//
+//	}
+//
+//}
+
+private class test {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello");
+	}
+
+}
+
+

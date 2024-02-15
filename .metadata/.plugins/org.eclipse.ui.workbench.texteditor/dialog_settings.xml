@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="double d = 100.212;"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="double d = 100.212;"/>
+			<item value="Boss"/>
+			<item value="&#x09;"/>
+			<item value="public static void m2(int []x) {"/>
+			<item value="&#x0D;&#x0A;&#x09;&#x09;m1(10);// Var arg methods !!&#x0D;&#x0A;&#x09;&#x09;m1(10,20,30);  // Var arg methods !!&#x0D;&#x0A;&#x09;&#x09;m1(10,34,45,67);// Var arg methods !!"/>
+			<item value="//&#x09;public  void m1() {"/>
+			<item value="public  void m1() {"/>
+			<item value="&#x09;TypeOfVariable_In_Java obj = new TypeOfVariable_In_Java();"/>
+		</list>
+		<list key="replacehistory">
+			<item value="FinalInstanceVariable"/>
+			<item value=""/>
+			<item value=" "/>
+			<item value="Fahad"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1166"/>
+		<item key="DIALOG_Y_ORIGIN" value="225"/>
+		<item key="DIALOG_WIDTH" value="511"/>
+		<item key="DIALOG_HEIGHT" value="523"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="567"/>
+		<item key="DIALOG_Y_ORIGIN" value="314"/>
+	</section>
+</section>

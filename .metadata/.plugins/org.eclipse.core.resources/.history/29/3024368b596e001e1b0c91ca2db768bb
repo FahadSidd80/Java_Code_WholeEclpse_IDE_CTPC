@@ -1,0 +1,175 @@
+import java.util.Arrays;
+import java.util.Scanner;
+public class Problem_Practice_Lang_Fundmntls {
+
+
+	
+	public static void main(String[] args) {
+		
+//		System.out.println("Hello Fahad Ali");
+//		
+//		int x = 1800;
+////		for(int i=0; i<20;i++ ) {
+//			int[] xarr = new int[20];
+//			xarr[0] = (x-85);
+//			xarr[1] = xarr[0]-85;
+//			xarr[2] = xarr[1]-85;
+//			xarr[3] = xarr[2]-85;
+//			xarr[4] = xarr[3]-85;
+//			xarr[5] = xarr[4]-85;
+//			xarr[6] = xarr[5]-85;
+//			xarr[7] = xarr[6]-85;
+//			xarr[8] = xarr[7]-85;
+//			xarr[9] = xarr[8]-85;
+//			int sum =0;
+//			for(int i=0; i<10;i++) {
+//				sum = sum + xarr[i];
+//				System.out.println(sum);
+//			}
+			
+		
+//		int p = 85;
+//		int[] x = new int[21];
+//	    x[0] = 1800;
+//	    int i=1;
+//	    for(i=1;i<21;i++) {
+//	    	x[i]= (x[i-1]-p);
+//	    	System.out.println("z = "+(i) + ".."+ x[i-1]);
+////	    	System.out.println("z = "+(i-1) + ".."+ x[i-1]);
+////	    	System.out.println("z = "+(i+1) + ".."+ x[i]);
+////	    	int sum =0;
+////	    	sum = sum + x[i-1];
+//	    	
+//	    	
+//	    }
+//	    
+//	    int sum = Arrays.stream(x).sum();
+//        System.out.println(sum);
+//	    
+        
+//        int p = 85;
+//		int[] x = new int[21];
+//	    x[0] = 1800;
+//	    int i=1;
+//	    for(i=1;i<21;i++) {
+//	    	x[i]= (x[i-1]-p);	
+//	    }
+//	    int sum = Arrays.stream(x).sum();
+//        System.out.println("The sum of Money in 20 months : "+sum);
+		
+//		System.out.println("Program to calculate Interest on Credit card Payment\n\n");		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter number of months interest to be calculated : ");
+//		int noOfMonths = sc.nextInt();
+//		
+//		System.out.println("Enter difference amount in every months : ");
+//		int diffvalue = sc.nextInt();
+//		
+//		int[] x = new int[noOfMonths+1];
+//		System.out.println("Enter Interest amount of 1st month : ");
+//		int number = sc.nextInt();
+//	    x[0] = number;
+//	    int i=1;
+////	    for(i=1;i<noOfMonths+1;i++) {
+////	    	x[i]= (x[i-1]-diffvalue);	
+////	    }
+//	    for(i=1;i<x.length;i++) {
+//	    	x[i]= (x[i-1]-diffvalue);	
+//	    }
+//	    int sum = Arrays.stream(x).sum();
+//        System.out.println("The interest amount for 20 months : "+sum);
+        
+		
+		System.out.println("Program to calculate Interest on Credit card Payment\n\n");		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number of months interest to be calculated : ");
+		int noOfMonths = sc.nextInt();	
+		System.out.println("Enter difference amount in every months : ");
+		int diffvalue = sc.nextInt();	
+		int[] x = new int[noOfMonths+1];
+		System.out.println("Enter Interest amount of 1st month : ");
+		int number = sc.nextInt();
+	    x[0] = number;
+	    int i=1;
+	    int sum =0;
+	    for(i=1;i<x.length;i++) {
+	    	x[i]= (x[i-1]-diffvalue);
+	    	sum += x[i-1];
+	    System.out.println("z = "+(i) + ".."+ x[i-1]);
+	    }
+	    System.out.println("The interest amount for 20 months : "+sum);
+	    
+	    
+//	    int sum = Arrays.stream(x).sum();
+//        System.out.println("The interest amount for 20 months : "+sum);
+       
+        
+//        int sum =0;
+//      	int i1;
+//      	for(i1=0; i1<x.length;i1++) {
+//      		sum += x[i1];
+//      	}
+//	    int sum =0;
+//      	
+//      	for(i=0; i<x.length;i++) {
+//      		sum += x[i];
+//      	}
+//      	System.out.println("The interest amount for 20 months : "+sum);
+        
+      
+		
+		
+		
+        
+	    
+//	    int [] nums = {1,2,3,4,5};
+//        int sum = Arrays.stream(x).sum();
+//        System.out.println(sum);
+        
+        
+//	    for(int j=0; j<x.length;j++) {
+//	    	int sum =0;
+//	    	sum += sum + x[i];
+//	    	System.out.println(sum);
+//	    }
+	   
+	    
+	    
+//	    do {
+//    		System.out.println("z = "+(i) + ".."+ x[i-1]);
+//    	}while(false);
+//	    
+//	    {
+//    		System.out.println("z = "+(i+1) + ".."+ x[i]);
+//    	}
+	    
+//	    do {
+//    		System.out.println("z = "+(i) + ".."+ x[i-1]);
+//    	}while(i=1;i<20;i++);
+//	    {
+//    		System.out.println("z = "+(i+1) + ".."+ x[i]);
+//    	}
+//	   for(int i=0;i<20;i++) {
+//		   String z;
+////		   System.out.println("z = "+i + ".."+ x[i]);
+//		   System.out.println("z = "+(i+1) + ".."+ x[i]);
+//	   }
+	   
+	    
+	    
+		
+		
+		
+
+	}
+	
+//	  int sumOfElements() {
+//      	int sum =0;
+//      	int i;
+//      	for(i=0; i<x.length;i++) {
+//      		
+//      	}
+//      	return sum;
+//      }
+
+}

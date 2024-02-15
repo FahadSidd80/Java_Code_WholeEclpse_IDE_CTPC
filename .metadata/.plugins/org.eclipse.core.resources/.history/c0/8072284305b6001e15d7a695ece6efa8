@@ -1,0 +1,37 @@
+package class_Level_Modifier;
+// //only public, abstract & final are permitted
+
+public class Modifier {
+
+	private class A{
+		
+	}
+	
+	protected class B {
+		
+	}
+	
+	static class C{
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Hello");
+
+	}
+
+}
+
+
+
+//private class Modifier {// Illegal modifier for the class Modifier; 
+//only public, abstract & final are permitted
+//
+//	public static void main(String[] args) {
+//		
+//		System.out.println("Hello");
+//	}
+//
+//}
+
+

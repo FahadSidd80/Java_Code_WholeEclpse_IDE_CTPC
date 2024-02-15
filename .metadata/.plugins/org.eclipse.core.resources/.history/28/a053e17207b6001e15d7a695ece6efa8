@@ -1,0 +1,22 @@
+package pack1;
+
+public  class A {
+
+	public static  void m1() {
+		System.out.println("hello-- public class class A accessible anywhere");
+
+	}
+    
+}
+
+
+ class B  {
+
+	public static void main(String[] args) {
+		A x = new A();
+		A.m1();
+
+	}
+
+}
+

@@ -1,0 +1,11 @@
+package Java_SourceFile_Structure;
+package com.durgasoft.scjp;
+
+public class Packages {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

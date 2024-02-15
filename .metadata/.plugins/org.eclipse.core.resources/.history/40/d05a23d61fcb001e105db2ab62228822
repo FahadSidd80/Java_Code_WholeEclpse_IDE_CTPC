@@ -1,0 +1,63 @@
+import java.util.*;
+public class Pattern_Questn {
+
+	public static void main(String[] args) {
+//		for(int i=0;i<4;i++) {
+//			for(int j=0;j<6;j++) {
+//				System.out.print("0");
+//			}	
+//			System.out.println();
+//		}
+//		000000
+//		000000
+//		000000
+//		000000
+		
+		
+//		for(int i=1;i<5;i++) {
+//			for(int j=0;j<i;j++) {
+//				System.out.print("0");	
+//			}	
+//			System.out.println();
+//		}
+//		0
+//		00
+//		000
+//		0000
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter input number : ");
+		int num = sc.nextInt();
+//		for(int i=1; i<=num; i++) {
+//			for(int j=0; j<i;j++) {
+//				System.out.print(i+" ");
+//			}
+//			System.out.println();
+//		}
+		
+//		for(int i=1; i<=num; i++) {
+//			for(int j=0; j<i;j++) {
+//				System.out.print((char)(64+i));
+//			}
+//			System.out.println();
+//		}
+		
+//		for(int i=0; i<num; i++) {
+//			for(int j=i; j<=2*i;j++) {
+//				System.out.print((char)(65+j));
+//			}
+//			System.out.println();
+//		}
+		
+		for(int i=0; i< num; i++) {
+			for() {
+				
+			}
+		}
+		
+		
+		
+		
+	}
+}
